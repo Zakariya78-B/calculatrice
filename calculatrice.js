@@ -30,3 +30,32 @@ function affiche(aff){
  
     
 }
+function plusmoins(){
+    var zone_affichage =document.getElementById('zone_affichage');
+    var contenue = zone_affichage.value;
+    if((contenue.split('')[0])=='-'){
+        zone_affichage.value=contenue.slice(1, contenue.length);
+    }
+    else{
+        zone_affichage.value='-'+contenue;
+    }
+        
+    }
+    function range_memory(){
+        var zone_affichage =document.getElementById('zone_affichage');
+    memory = zone_affichage.value;
+        
+    }
+    function affiche_memory(){
+        var zone_affichage =document.getElementById('zone_affichage');
+    var contenue = zone_affichage.value;
+    if(memory){
+        zone_affichage.value=contenue+memory;
+    }
+        
+    }
+    function raz_memory(){
+        if(memory){
+            memory=undefined;
+        }
+    }

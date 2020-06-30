@@ -1,8 +1,11 @@
+	body{
+		background-color: darkgray;
+	}
 	#calc
 	{
 		width:370px;
-		background-color:#eeeeee;
-		border:2px solid #CCCCCC;
+		background-color:darkgoldenrod;
+		border:2px solid darkblue;
 		margin:auto; /*centre la calculatrice dans la page */
 		padding:15px;
 	}
@@ -24,6 +27,7 @@
 		font-size:20px;
 		text-align:right;
 		width:352px;
+		background-color: darkgray;
 		
 	}
 
@@ -44,6 +48,8 @@
 		font-size:18px;
 		padding:0px;
 		margin:auto;
+		background-color: darkblue;
+		color: darkgray;
 	}
 
 	.bouton_libre /* boutons editables */
@@ -52,6 +58,7 @@
 		font-size:20px;
 		padding:0px;
 		margin:auto;
+		background-color: darkcyan;
 	}
 
 
